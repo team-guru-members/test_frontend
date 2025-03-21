@@ -1,0 +1,92 @@
+body {
+    font-family: 'Krona One', sans-serif;
+}
+
+.logo { 
+    float: left;
+    line-height: 80px;
+    width: 138px;
+    height: 77px;
+    display: flex;
+}
+.profile {
+    float: right;
+    line-height: 80px;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+}
+
+.img-label {
+    margin-right: 25px;
+}
+.profile img {
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    float: right; 
+}
+
+.box-label {
+    float: left; 
+    text-align: left;  
+    margin: 10px 0;
+    padding-left: 10px; 
+    width: 100%; 
+    font-weight: bold;
+}
+
+ 
+.upload-box {
+    width: 100%;
+    height: 498px;
+    border: 2px solid #ccc;
+    display: flex;
+    justify-content: center;
+    align-items: center; 
+    color: #aca4a4; 
+}
+
+.upload-box img {
+    max-width: 100%;  
+    max-height: 450px;
+    object-fit: cover; 
+    display: block;
+    margin-bottom: 10px;
+    border-radius: 5%;
+}
+
+.upload-box label:hover {
+    background: #ececec;
+}
+
+.buttons {
+    display: flex;
+    justify-content: space-between;
+    margin-top: 20px;
+}
+.buttons button {
+    width: 48%;
+    padding: 12px;
+    cursor: pointer;
+    font-size: 16px;
+}
+.skip {
+    background: white;
+    border: 2px solid #E47934;
+    color: #E47934;
+}
+.save {
+    background: #E47934;
+    border: 2px solid #E47934;
+    color: white;
+}
+
+/* hide display input */
+input {
+    display: none;
+}
+
+label {
+    cursor: pointer;
+}
